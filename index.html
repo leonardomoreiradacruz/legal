@@ -9,9 +9,11 @@
            </head>
     <body>
        <header class="cabeçalho">
-         <div class="container">
+    <div class="container">
+          <input type="checkbox" id="menu" class="container__botao">
+          <label for="menu">
        <span class="cabeçalho__menu-hamburguer"></span>
-         </label>
+          </label>
         <ul class="lista-menu">
           <li class="lista-menu_titulo">Categorias</li>
            <li class="lista-menu_item">
@@ -34,11 +36,19 @@
        <img src="img/Logo.svg" alt="Logo da AluraBooks">
        </div>
        <div class="container">
-      <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos"></a>
-      <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras"></a>
-      <a href="#"><img src="img/Usuário.svg" alt="Meu perfil"></a>
+      <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"></a>
+      <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
                </div>
            </header>
-           
+      <section class="banner">
+      </section class="carrossel">
+      <h2 class="banner__titulo"> novos lançamentos</h2>
+      <section>
+        <h2 class="banner__titulo">ja sabe por onde começar?
+          <p class="banner__texto">encontre em nossa estante o que precisa para seu desenvolvimento</p>
+          <input type="search" class="banner__pesquisa"
+         placeholder="qual sera sua proxima letra">
+          </h2>
     </body>
 </html>

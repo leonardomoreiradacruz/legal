@@ -2,19 +2,13 @@
 
 
 :root  {
-    --cor-de-fundo: #ffffff;
-    --branco: #130c0c;
-    --laranja: #EB9B00;
-    --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-de-fundo: #c02c2c;
+    --branco: #fdfdfd;
+    --laranja: #e97d17;
+    --azul-degrade:linear-gradient(97.54deg, #df6b27 35.49%, #2ed845 165.37%);
 }
 body {
     background-color: var(--cor-de-fundo);
     display: flex;
 
 }
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-widht, initial-scale=1.0">
-      <title>AluraBooks</title>
-      <link rel="stylesheet" href="style.css">
-      <link rel="preconnect" href="https://fonts.googlepis.com">
